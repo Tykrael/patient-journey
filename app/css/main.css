@@ -1,0 +1,733 @@
+
+
+.cf:before,.cf:after{content:"";display:table}
+.cf:after{clear:both}
+.cf{*zoom:1}
+/* ALIGNEMENT */
+.vTop{vertical-align:top}
+.vBot{vertical-align:bottom}
+.vMid{vertical-align:middle}
+/* reset */
+.resetM{margin:0}
+.resetML{margin-left:0;}
+.resetMR{margin-right:0;}
+.resetP{padding:0}
+.resetBorder{border:0 none}
+.resetBg{background:none}
+/* flux */
+.fright{float:right}
+.fleft{float:left}
+.clear{clear:both}
+ .iBlock{display:inline-block}
+ .ie7 .iBlock{display: inline}/*correct IE 7 bug inline-block*/
+ .iLine{display:inline}
+.row{display: block}
+/*POSITION*/
+.rel{position:relative}
+.center{margin: 0 auto;}
+/*WIDTH*/
+.full{width:100%;}
+.size1of2{width:50%;}
+.size1of3{width:33.33333%;}
+.size2of3{width:66.66666%;}
+.size1of4{width:25%;}
+.size3of4{width:75%;}
+.size1of5{width:20%;}
+.size2of5{width:40%;}
+.size3of5{width:60%;}
+.size4of5{width:80%;}
+/* TEXT */
+.uppercase{text-transform:uppercase}
+.txtCenter{text-align:center}
+.txtRight{text-align:right}
+.txtLeft{text-align:left}
+.txtJustify{text-align:justify}
+.underline,u{text-decoration:underline}
+.italic,em{font-style:italic}
+.fsNormal{font-style:normal}
+.fwNormal{font-weight:normal}
+.bold,b,strong{font-weight:bold}
+.small,small{font-size:85%}
+.big{font-size:115%}
+/* HIDDEN */
+.hidden { display: none;}
+.invisible { visibility: hidden}
+
+::-moz-selection { background: #7D5B9A; color: #fff; text-shadow: none; }
+::selection { background: #7D5B9A; color: #fff; text-shadow: none; }
+
+
+/*
+ * Swiper - Mobile Touch Slider CSS
+ * http://www.idangero.us/sliders/swiper
+ *
+ * Vladimir Kharlampidi, The iDangero.us
+ * http://www.idangero.us/
+ * 
+ * Copyright 2012-2013, Vladimir Kharlampidi
+ * The iDangero.us
+ * http://www.idangero.us
+ *
+ * Licensed under GPL & MIT
+ *
+*/
+
+/* ===============================================================
+Basic Swiper Styles 
+================================================================*/
+.swiper-container {
+    margin:0 auto;
+    position:relative;
+    overflow:hidden;
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -ms-backface-visibility:hidden;
+    -o-backface-visibility:hidden;
+    backface-visibility:hidden;
+    /* Fix of Webkit flickering */
+    z-index:1;
+}
+.swiper-wrapper {
+    position:relative;
+    width:100%;
+    -webkit-transition-property:-webkit-transform, left, top;
+    -webkit-transition-duration:0s;
+    -webkit-transform:translate3d(0px,0,0);
+    -webkit-transition-timing-function:ease;
+    
+    -moz-transition-property:-moz-transform, left, top;
+    -moz-transition-duration:0s;
+    -moz-transform:translate3d(0px,0,0);
+    -moz-transition-timing-function:ease;
+    
+    -o-transition-property:-o-transform, left, top;
+    -o-transition-duration:0s;
+    -o-transform:translate3d(0px,0,0);
+    -o-transition-timing-function:ease;
+    -o-transform:translate(0px,0px);
+    
+    -ms-transition-property:-ms-transform, left, top;
+    -ms-transition-duration:0s;
+    -ms-transform:translate3d(0px,0,0);
+    -ms-transition-timing-function:ease;
+    
+    transition-property:transform, left, top;
+    transition-duration:0s;
+    transform:translate3d(0px,0,0);
+    transition-timing-function:ease;
+}
+
+.swiper-free-mode > .swiper-wrapper {
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -ms-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+
+}
+.swiper-slide {
+    float: left;
+    position: relative;
+}
+
+/* IE10 Windows Phone 8 Fixes */
+.swiper-wp8-horizontal {
+    -ms-touch-action: pan-y;
+}
+.swiper-wp8-vertical {
+    -ms-touch-action: pan-x;
+}
+
+/*AUTHOR*/
+html{
+
+}
+
+body,html {
+    font-family: 'Lato', sans-serif;
+    color:#fff; 
+    position: relative;
+    height:100%;
+}
+
+body {
+    line-height: 1.4;
+    background: #fff;
+    color: #333;
+}
+
+#loader{
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    position: fixed;
+    z-index: 9999;
+    background: url('../img/loader.png') no-repeat 50% 50% #FEFDFD;
+}
+
+#wrap {
+    min-height: 100%;
+    position: relative;
+     background: url('../img/bg-slide.png') repeat 50% 50% #FEFDFD;
+}
+
+
+/*STICKY FOOTER*/
+
+p{
+    margin:20px 0;
+}
+/*TITLE*/
+.h1{
+    margin-right: 10px
+}
+
+.h2{
+    color:#68b0ba;
+    font-size:2em;
+    font-weight: 300
+}
+
+.h3{
+    color:#68b0ba;
+    font-size:1.25em;
+}
+
+.link{
+    color:#68b0ba;
+    display: block
+}
+.link:hover{
+    text-decoration:underline;
+}
+
+/*HEADER*/
+
+#header{
+    background : url('../img/header-bg.png') repeat-x 0 0 #fff;
+    padding: 5px 20px;
+    height:67px;
+    position: relative;
+    z-index: 9999
+}
+    .map-trigger,
+    .info{
+        position: absolute;
+        top:0;
+        right:0;
+        z-index: 5
+    }
+
+    .map-trigger{
+        right:45px;
+    }
+
+    .info{
+        right:20px;
+        top:20px;
+    }
+
+/*TMP1 */
+
+.tmp1 article{
+    padding-right:60px;
+}
+
+/*TMP2*/
+
+.tmp2{
+    font-size: 0.875em
+}
+    .swiper-content .swiper-slide.tmp2{
+       padding-top: 20px
+    }
+
+    .tmp2 .bubble li{
+        color:#fff;
+    }
+        .tmp2 figure{
+            position: relative;
+            margin:65px auto 0 40%;
+            width:290px;
+            height:290px
+        }
+
+            .tmp2 .bubble-1{
+                background: url('../img/bulle-1.png') no-repeat 0 0;
+                height: 157px;
+                left: -190px;
+                position: absolute;
+                top: -30px;
+                width: 170px;
+            }
+
+            .bubble li:before{
+                content: '';
+                display: inline-block;
+                height: 70%;
+                vertical-align: middle;
+                margin-right: -0.25em;
+            }
+
+             .bubble .text{
+                 padding: 35px 0 0 25px;
+                 display: inline-block;
+                 vertical-align: middle;
+                 width:80%;
+             }
+
+             .bubble-1 .text{
+                padding: 20px 0 0 30px;
+             }
+              .bubble-2 .text{
+                padding: 20px 0 0 30px;
+             }
+             .bubble-3 .text{
+               padding:35px 0 0 30px;
+             }
+             .bubble-4 .text{
+               padding:35px 0 0 30px;
+               width:88%;
+             }
+             .bubble-5 .text{
+               padding:35px 0 0 30px;
+             }
+             
+            .bubble .text p{
+                margin:0;
+                font-size: 13px;
+                line-height: 1
+            }
+
+            .tmp2 .bubble-2{
+                background: url('../img/bulle-2.png') no-repeat 0 0;
+                width:152px;
+                height:151px;
+                position: absolute;
+                top:50px;
+                left:-350px;
+            }
+            .tmp2 .bubble-3{
+                background: url('../img/bulle-3.png') no-repeat 0 0;
+                width:210px;
+                height:193px;
+                position: absolute;
+                top:150px;
+                  left:-220px;
+            }
+            .tmp2 .bubble-4{
+                background: url('../img/bulle-4.png') no-repeat 0 0;
+                width:178px;
+                height:166px;
+                position: absolute;
+                top:-30px;
+                right:-185px;
+            }
+
+            .tmp2 .bubble-5{
+                background: url('../img/bulle-5.png') no-repeat 0 0;
+                width:188px;
+                height:166px;
+                position: absolute;
+                top:150px;
+                right:-205px;
+            }
+/*TMP3*/
+
+.tmp3 figure{
+    margin-top: 40px
+}
+/*SWIPER CONTENT*/
+
+.swiper-content {
+    width: 100%;
+    height:100%;
+}
+    .swiper-content .swiper-slide{
+        padding: 60px 160px 30px 140px; 
+        height:100%;
+        min-height:500px;
+    }
+
+    .swiper-content  img{
+        max-width:100%;
+        height: auto
+    }
+
+/*SWIPER NAV*/
+
+    .nav-arrow a{
+        position: absolute;
+        width:35px;
+        height:65px;
+        top: 50%;
+        display: block;
+        text-indent: -9999em;
+        z-index: 99;
+        margin-top: -35px;
+        background: url('../img/arrow.png') no-repeat 0 0;
+    }
+
+    .nav-arrow .prev{
+        display: none;
+        left:30px;
+        background-position: 0 0;
+    }
+
+    .nav-arrow .prev:hover{
+        background-position: 0 -70px;
+
+    }
+
+    .nav-arrow .next{
+        right:30px;
+        background-position: -55px 0;
+    }
+
+    .nav-arrow .next:hover{
+        background-position: -55px -70px;
+    }
+
+.swiper-nav {
+    height: 157px;
+    width: 100%;
+    background: url('../img/frise-bg.png') repeat-x left bottom;
+    position:  relative;
+}
+
+    .swiper-nav .swiper-wrapper {
+        background: url('../img/nav-legend-bg.png') no-repeat left bottom;
+    }
+
+     .swiper-nav:before {
+        content:"";
+        display: block;
+        width:20px;
+        height:127px;
+        position: fixed;
+        top:30px;
+        left:0;
+        z-index: 99;
+        background: url('../img/frise-legend.png') no-repeat left bottom;
+     }
+
+    .swiper-nav .swiper-slide {
+        padding: 30px 0 0 0; 
+        height:100%;
+        text-align: center;
+        position: relative;
+        color:#fff;
+    }
+
+
+.row{
+    position: relative;
+    padding:5px;
+    margin:0 5px;
+    font-size: 0.75em;
+    text-align: left
+}
+.row:hover {
+    cursor: pointer
+}
+
+.row.insight{
+    padding:5px;
+    margin:4px;
+    width:165px;
+    height:40px;
+    color:#16b4cf;
+    background: url('../img/insight-bg.png') no-repeat 0 -53px;
+
+}
+
+.row.insight:hover,
+.row.insight.active-nav{
+    background-position: 0 0;
+    color:#fff;
+}
+
+    .row.insight figure img{
+        width:25px;
+        height:25px;
+        margin-right: 10px
+    }
+
+.row.solution{
+    padding:5px 5px 5px 15px;
+    width:165px;
+    height:40px;
+    color:#AEC44C;
+    background: url('../img/solution-bg.png') no-repeat 0 0;
+    margin-top:82px;
+
+}
+
+.row.solution:hover,
+.row.solution.active-nav{
+    background-position: 0 -58px;
+    
+    color:#fff;
+}
+
+.row.recurrent{
+    margin-top:50px 0 0 50px;
+    width:46px;
+    height:28px;
+    margin-top: 49px;
+    background: url('../img/recurrent-social.png') no-repeat 0 0;
+}
+
+
+.row.recurrent.social{
+     background: url('../img/recurrent-social.png') no-repeat 0 0;
+}
+
+.row.recurrent.life{
+     background: url('../img/recurrent-life.png') no-repeat 0 0;
+}
+
+.row.recurrent.blood{
+     background: url('../img/recurrent-blood.png') no-repeat 0 0;
+}
+
+.row.recurrent.hypos{
+     background: url('../img/recurrent-hypos.png') no-repeat 0 0;
+}
+
+.row.recurrent.relation{
+     background: url('../img/recurrent-relation.png') no-repeat 0 0;
+}
+
+
+
+.row.recurrent:hover,
+.row.recurrent.active-nav{
+    background-position: 0 -36px;
+    color:#fff;
+}
+    .row *{
+            line-height: 1
+        }
+.swiper-slide:first-child .row.insight{
+    margin-left: 20px
+}
+/*GESTION DES CAS DE LA NAV BIZARRE*/
+
+.row.insight + .row.recurrent{
+    margin: 0 auto;
+    margin-left: 160px
+}
+
+.row.insight + .row.recurrent + .row.solution{
+    margin-top:8px;
+    margin-left:200px;
+}
+
+.row.insight + .row.solution{
+    margin-left:160px;
+    margin-top:40px;
+}
+
+.row.recurrent + .row.solution{
+    margin-top:5px;
+    margin-left:60px;
+}
+
+.row.solution + .row.recurrent{
+    margin-top:-78px;
+    margin-left:0px;
+}
+
+    li[data-phase].first-phase:before{ /*AFFICHAGE DU TITRE DE LA PHASE*/
+         content: attr(data-phase); 
+         text-align: left;
+         text-transform: uppercase;
+         padding-left:10px;
+         line-height: 30px
+    }
+
+    li[data-phase]:before{
+        content: '';
+        display: block;
+        position: absolute;
+        top:0;
+        width:101%; /* fix IOS7 pour le pixel entre bloc flotté */
+        height:30px;
+    }
+
+ li.last-phase:before{
+    width:100%;
+ }
+     li[data-phase="diagnosis"]:before{
+        background-color: #7d5b9a
+    }
+
+    li[data-phase="Time to Treat"]:before{
+        background-color: #d7d927
+    }
+
+    li[data-phase="Time to Insulin"]:before{
+        background-color: #16B4CF
+    }
+    li[data-phase="Intensification"]:before{
+        background-color: #B6A26C
+    }
+    li[data-phase="Empowerment"]:before{
+        background-color: #EA7023
+    }
+    li.last-phase{
+        border-right:2px solid #222;
+    }
+    li.last-phase:before{
+        border-right:2px solid #fff;
+    }
+
+#main {
+    position: relative;
+    overflow:hidden;
+    padding-bottom: 165px;
+}  
+
+#footer:before{
+     background: url("../img/shadow.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    content: "";
+    display: block;
+    height: 9px;
+    left: 0;
+    position: absolute;
+    top: -9px;
+    width: 100%;
+}
+
+#footer{
+    padding-left:60px;
+    position: relative;
+    background: #3B3B3B;
+    margin-top: -165px; 
+    height: 165px;
+    z-index: 99;
+    clear:both;
+}
+
+ #footer .player{
+    position:absolute;
+    top:0;
+    left:0;
+    background-color: #fff;
+    width:60px;
+    height:100%;
+ }
+     .player li a{
+        width:35px;
+        height:34px;
+        display: block;
+        text-indent: -999em;
+        margin: 5px auto;
+        background: url('../img/player.png') no-repeat 0 0;
+     }
+     .player .back-all{
+        background-position: 0 0;
+     }
+
+     .player .prev-phase{
+        background-position: 0 -43px;
+     }
+     .player .next-phase{
+        background-position: 0 -89px;
+     }
+     .player .next-all{
+        background-position: 0 -132px;
+     }
+
+.phase-schema{
+    position: relative;
+    left: 0;
+    top:0;
+    width:100%;
+    height:8px;
+    z-index: 99
+}
+
+    .phase-schema li{
+        width:20%;
+        float: left;
+        height:100%;
+    }
+
+        .phase-schema .first{
+            background-color: #7D5B9A
+        }
+        .phase-schema .second{
+            background-color: #D7D927
+        }
+        .phase-schema .third{
+            background-color: #16B4CF
+        }
+        .phase-schema .fourth{
+             background-color: #B6A26C
+         
+        }
+         .phase-schema .fifth{
+              background-color: #EA7023
+        }
+
+/*POPIN MAP*/
+
+.popin-map{
+    position: absolute;
+    opacity:0;
+    display: inline-block;
+    height: 100%;
+    width:100%;
+    background: #faf9f9;
+    z-index: 100;
+    top:0;
+    left:0;
+    text-align: center;
+    vertical-align: top;
+    padding-top:80px;
+}
+
+
+ .popin-map:before{
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+      margin-right: -5px; /* Adjusts for spacing */
+      width:1px;
+   }
+
+body .away{
+    top:-100%;
+    left:-100%;
+}
+
+.popin-map img{
+    display: inline-block;
+    max-width: 100%;
+    height:auto;
+    vertical-align: middle
+}
+  
+  .popin-info{
+    background: none repeat scroll 0 0 #FF0000;
+    bottom: 165px;
+    min-height: 500px
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    text-align: center;
+    top: 65px;
+    width: 100%;
+    z-index: 80;
+    overflow: hidden
+  }
+@media only screen and (max-width : 1024px)  {
+    #header h2 span{
+        display: block
+    }
+}
+
