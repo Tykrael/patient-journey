@@ -288,7 +288,7 @@ var patient = {
 		},
 		{
 			"slide":3,
-			"phase":"Intensification",
+			"phase":"intensification",
 			"groupe":13,
 			"theme":"insight",
 			"titre":"IDMPS  :Fear of complication & link with tight control ",
@@ -299,7 +299,7 @@ var patient = {
 		},
 		{
 			"slide":1,
-			"phase":"Intensification",
+			"phase":"intensification",
 			"groupe":13,
 			"theme":"recurrent hypos",
 			"titre":"Delving deeper in to members’ experiences with Hypoglycaemia",
@@ -316,7 +316,7 @@ var patient = {
 		},
 		{
 			"slide":3,
-			"phase":"Intensification",
+			"phase":"intensification",
 			"groupe":14,
 			"theme":"recurrent blood",
 			"titre":"Achieving target HbA1c <7%* is a key goal in the management of diabetes",
@@ -327,7 +327,7 @@ var patient = {
 		},
 		{
 			"slide":3,
-			"phase":"Intensification",
+			"phase":"intensification",
 			"groupe":15,
 			"theme":"",
 			"titre":"BGM as part of my routine  my compas my companion ",
@@ -338,7 +338,7 @@ var patient = {
 		},
 		{
 			"slide":2,
-			"phase":"Intensification",
+			"phase":"intensification",
 			"groupe":15,
 			"theme":"recurrent social",
 			"titre":"Leveraging social media to promote peer to peer exchange ",
@@ -349,7 +349,7 @@ var patient = {
 		},
 		{
 			"slide":3,
-			"phase":"Intensification",
+			"phase":"intensification",
 			"groupe":16,
 			"theme":"insight",
 			"titre":"IDMPS : People with diabetes are not reaching the glycemic targets recommended by their physicians",
@@ -360,7 +360,7 @@ var patient = {
 		},
 		{
 			"slide":3,
-			"phase":"Intensification",
+			"phase":"intensification",
 			"groupe":17,
 			"theme":"insight",
 			"titre":"As a progressive disease, diabetes has a serious  impact on heath",
@@ -371,7 +371,7 @@ var patient = {
 		},
 		{
 			"slide":2,
-			"phase":"Intensification",
+			"phase":"intensification",
 			"groupe":17,
 			"theme":"sanofi answers",
 			"titre":"Preventive health leaflets initiative Pakistan",
@@ -382,7 +382,7 @@ var patient = {
 		},
 		{
 			"slide":3,
-			"phase":"Intensification",
+			"phase":"intensification",
 			"groupe":18,
 			"theme":"insight",
 			"titre":"Taking medication at work",
@@ -393,7 +393,7 @@ var patient = {
 		},
 		{
 			"slide":3,
-			"phase":"Intensification",
+			"phase":"intensification",
 			"groupe":18,
 			"theme":"recurrent relationship",
 			"titre":"The ideal relationship for patients with a HCP",
@@ -916,7 +916,6 @@ var patient = {
 
 			if($(this).text().length >30){
 				var shortText = $(this).text()
-								    .trim()
 								    .substring(0, 35)
 								    .split(" ") 
 								    .join(" ") + "...";
