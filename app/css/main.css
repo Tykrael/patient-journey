@@ -159,7 +159,8 @@ p{
 }
 /*TITLE*/
 .h1{
-    margin-right: 10px
+    margin-right: 10px;
+    padding:5px;
 }
 
 .h2{
@@ -314,7 +315,8 @@ p{
             }
 /*TMP3*/
 
-.tmp3 figure{
+.tmp3 figure,
+.popin-info figure{
     margin-top: 40px
 }
 /*SWIPER CONTENT*/
@@ -690,9 +692,10 @@ body .away{
 }
   
   .popin-info{
-    background: none repeat scroll 0 0 #FF0000;
+    background: none repeat scroll 0 0 #FAF9F9;
     bottom: 165px;
-    min-height: 500px
+    min-height: 500px;
+     padding: 60px 160px 30px 140px;
     left: 0;
     opacity: 1;
     position: absolute;
@@ -702,6 +705,8 @@ body .away{
     z-index: 80;
     overflow: hidden
   }
+
+
 @media only screen and (max-width : 1024px)  {
     #header h2 span{
         display: block
