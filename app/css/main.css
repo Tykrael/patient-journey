@@ -151,7 +151,6 @@ body {
      background: url('../img/bg-slide.png') repeat 50% 50% #FEFDFD;
 }
 
-
 /*STICKY FOOTER*/
 
 p{
@@ -331,10 +330,10 @@ p{
         min-height:500px;
     }
 
-    .swiper-content  img{
-        max-width:100%;
-        height: auto
-    }
+        .swiper-content .swiper-slide img{
+            max-width:100%;
+            height: auto
+        }
 
 /*SWIPER NAV*/
 
