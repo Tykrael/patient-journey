@@ -2,7 +2,7 @@
 var patient = {
 
 	template: function(){
-		slides = [
+	slides = [
 		{
 			"slide":3,
 			"phase":"diagnosis",
@@ -33,11 +33,11 @@ var patient = {
 			"titre":"When I was first diagnosis",
 			"stitre":null,
 			"description":{
-				"bulle1": "I thought diabetes was going to kill me fast and I  was quite stressed about it.",
-				"bulle2": "I was in shock. Why does it happen to me? I felt stupid and scared and I did not ask anything much.",
-				"bulle3": "It was a blessing in disguise, since then I have lost weight and adopted a healthier lifestyle",
-				"bulle4": "They should have had literature and maybe a video available to take home to look at calmly...",
-				"bulle5":  "It was hard to accept that I will have this disease the rest life of my life",
+				"bulle1": '"I thought diabetes was going to kill me fast and I  was quite stressed about it."',
+				"bulle2": '"I was in shock. Why does it happen to me? I felt stupid and scared and I did not ask anything much."',
+				"bulle3": '"It was a blessing in disguise, since then I have lost weight and adopted a healthier lifestyle"',
+				"bulle4": '"They should have had literature and maybe a video available to take home to look at calmly..."',
+				"bulle5":  '"It was hard to accept that I will have this disease the rest life of my life"',
 			},
 			"img":"sanofi.image.3",
 			"vignette":" First diagnosis",
@@ -50,11 +50,11 @@ var patient = {
 			"titre":"Key barriers to visiting the doctor more regularly from a patient perspective",
 			"stitre":null,
 			"description":{
-				"bulle1": "Waiting at the doctors I face difficulty in taking time out since my doctor is very busy and I have to wait for quite some time at the clinic…",
-				"bulle2": "Doctors availability It is very difficult most of the time as there is a large number of people at all times to see the doctor.",
-				"bulle3" : "Distance : Firstly my doctor is based out of the city and visits his clinic twice in a month",
-				"bulle4": "Time constraints from work and home  Work pressure prevents me from going there often.",
-				"bulle5": "Lack of trust I don’t visit the doctor that often because [I think] their aim is not to help the patient, but create profit in their business.",
+				"bulle1": '"Waiting at the doctors I face difficulty in taking time out since my doctor is very busy and I have to wait for quite some time at the clinic…"',
+				"bulle2": '"Doctors availability It is very difficult most of the time as there is a large number of people at all times to see the doctor."',
+				"bulle3" : '"Distance : Firstly my doctor is based out of the city and visits his clinic twice in a month"',
+				"bulle4": '"Time constraints from work and home  Work pressure prevents me from going there often."',
+				"bulle5": '"Lack of trust I don’t visit the doctor that often because [I think] their aim is not to help the patient, but create profit in their business."',
 			},
 			"img":"sanofi.image.4",
 			"vignette":" Key barriers with HCP",
@@ -67,11 +67,11 @@ var patient = {
 			"titre":"Partnership  with authorities for Awareness",
 			"stitre":null,
 			"description":{
-				"bulle1":" Diabetes Awareness and Screening campaign across Intercontinental to promote  healthy lifestyles and disease information",
-				"bulle2":" In Egypt, since 2010, Control Diabetes before it controls you",
-				"bulle3":"School campaign to explain challenges of type1 diabetes and promote healthy lifestyle in Turkey (Diabetes at school), India (Kids), Algeria  ...",
-				"bulle4":" In India, What Step Will You Take Today' to fight against Diabetes",
-				"bulle5": "Diabécole", 
+				"bulle1":'"Diabetes Awareness and Screening campaign across Intercontinental to promote  healthy lifestyles and disease information"',
+				"bulle2":'"In Egypt, since 2010, Control Diabetes before it controls you"',
+				"bulle3":'"School campaign to explain challenges of type1 diabetes and promote healthy lifestyle in Turkey (Diabetes at school), India (Kids), Algeria ..."',
+				"bulle4":'"In India, What Step Will You Take Today to fight against Diabetes"',
+				"bulle5": '"Diabécole"', 
 			},
 			"img":"sanofi.image.5",
 			"vignette":"Increase Diabetes Awareness",
@@ -128,11 +128,11 @@ var patient = {
 			"titre":"Discover the ideal glucometer from Get in Touch Community",
 			"stitre":null,
 			"description":{
-				"bulle1": "Compact size, Colors, Minimum drop of blood, In built blood strip & needle, Memory of readings, USB connection, Convenient & easy to use",
-				"bulle2": "Design of Ideal Glucometer, it should of pen size or bit larger",
-				"bulle3": "My Glucometer without strips - carry on key ring",
-				"bulle4": "should have an in-built micro SD memory card to store data, It should also have a strip which doesn’t have to be changed",
-				"bulle5":  "Glucometer Design - A Wristwatch come multipurpose and intelligent Glucometer"
+				"bulle1": '"Compact size, Colors, Minimum drop of blood, In built blood strip & needle, Memory of readings, USB connection, Convenient & easy to use"',
+				"bulle2": '"Design of Ideal Glucometer, it should of pen size or bit larger"',
+				"bulle3": '"My Glucometer without strips - carry on key ring"',
+				"bulle4": '"should have an in-built micro SD memory card to store data, It should also have a strip which doesn’t have to be changed"',
+				"bulle5": '"Glucometer Design - A Wristwatch come multipurpose and intelligent Glucometer"'
 			},
 			"img":"sanofi.image.10",
 			"vignette":"Ideal Glucometer",
@@ -167,11 +167,11 @@ var patient = {
 			"titre":"South Africa Proficio SMS program",
 			"stitre":null,
 			"description":{
-				"bulle1": "Detailed and thorough informationProvides all the knowledge necessary for best diabetes management and correct insulin usage ",
-				"bulle2": "Emotional supportPatients feel better looked after, safer and more confident about their treatment",
-				"bulle3": "Improved diabetes managementHelps to build and entices to follow a correct diabetes management routine",
-				"bulle4": "Early detection of complicationsConstant monitoring allows diabetes educator to flag potential complications at early stage",
-				"bulle5": "PortabilityThe SMS format allows patients to keep on track to the program on-the-go",
+				"bulle1": '"Detailed and thorough informationProvides all the knowledge necessary for best diabetes management and correct insulin usage "',
+				"bulle2": '"Emotional supportPatients feel better looked after, safer and more confident about their treatment"',
+				"bulle3": '"Improved diabetes managementHelps to build and entices to follow a correct diabetes management routine"',
+				"bulle4": '"Early detection of complicationsConstant monitoring allows diabetes educator to flag potential complications at early stage"',
+				"bulle5": '"PortabilityThe SMS format allows patients to keep on track to the program on-the-go"',
 			},
 			"img":"sanofi.image.13",
 			"vignette":"South Africa Proficio SMS program",
@@ -305,11 +305,11 @@ var patient = {
 			"titre":"Delving deeper in to members’ experiences with Hypoglycaemia",
 			"sous-titre":null,
 			"description":{
-				"bulle1": "The idea of a coma makes the experience feel life-threatening",
-				"bulle2": "A feeling of being ‘frantic’ when looking for a solution",
-				"bulle3": "A recurring feeling of being rock bottom",
-				"bulle4": "Fear of the time it will take to go away, and fear of it happening again",
-				"bulle5": " Many feel as though they have let themselves down"
+				"bulle1": '"The idea of a coma makes the experience feel life-threatening"',
+				"bulle2": '"A feeling of being ‘frantic’ when looking for a solution"',
+				"bulle3": '"A recurring feeling of being rock bottom"',
+				"bulle4": '"Fear of the time it will take to go away, and fear of it happening again"',
+				"bulle5": '" Many feel as though they have let themselves down"'
 			},
 			"img":"sanofi.image.25",
 			"vignette":"Deeply into Hypoglycaemia",
@@ -410,11 +410,11 @@ var patient = {
 			"titre":"Meet the Ambassadors of our region",
 			"sous-titre":null,
 			"description":{
-				"bulle1": "'I call for a law for diabetics’ rights' G.T, Lebanon",
-				"bulle2": "'I’m a normal person with sweet blood' D.S, KSA",
-				"bulle3": "'BE ACTIVE, you can fight anything with sports' H.R,  Jordan",
-				"bulle4": "'Insulin, my friend' H.K, Iran",
-				"bulle5": "I was a teenager who struggled, I’m going to help others to surpass the struggle M.A.S Qatar"
+				"bulle1": '"I call for a law for diabetics’ rights" G.T, Lebanon',
+				"bulle2": '"I’m a normal person with sweet blood D.S, KSA"',
+				"bulle3": '"BE ACTIVE, you can fight anything with sports - H.R, Jordan"',
+				"bulle4": '"Insulin, my friend - H.K, Iran"',
+				"bulle5": '"I was a teenager who struggled, I’m going to help others to surpass the struggle M.A.S Qatar"'
 			},
 			"img":"sanofi.image.34",
 			"vignette":"Diabetics Ambassadors",
@@ -449,11 +449,11 @@ var patient = {
 			"titre":"Incidents of People with Diabetes’ in their journey ",
 			"sous-titre":null,
 			"description":{
-				"bulle1": "I had a hypo at work. I was in a state of confusion with just enough brain power to know I needed glucose. I ate some sweets from my pocket on the way there.",
-				"bulle2": "I know I am responsible for the incident, by either eating or drinking the wrong thing, or not taking my meds properly.",
-				"bulle3": "People do not understand such an incident.  You may appear to be intoxicated and they would rather point fingers than help or try to understand..",
-				"bulle4":  "I was at work and was unaware it was a hypo. I was taking an interview and collapsed in the sick room. I was given glucose to eat by the campus doctor… It was really horrible…",
-				"bulle5":  "Ashamed of shakingand being looked at",
+				"bulle1": '"I had a hypo at work. I was in a state of confusion with just enough brain power to know I needed glucose. I ate some sweets from my pocket on the way there."',
+				"bulle2": '"I know I am responsible for the incident, by either eating or drinking the wrong thing, or not taking my meds properly."',
+				"bulle3": '"People do not understand such an incident.  You may appear to be intoxicated and they would rather point fingers than help or try to understand..."',
+				"bulle4":  '"I was at work and was unaware it was a hypo. I was taking an interview and collapsed in the sick room. I was given glucose to eat by the campus doctor… It was really horrible…"',
+				"bulle5":  '"Ashamed of shakingand being looked at"',
 			},
 			"img":"sanofi.image.37",
 			"vignette":"Incidents of People with Diabetes’ in their journey",
@@ -466,11 +466,11 @@ var patient = {
 			"titre":"What's keep me going",
 			"sous-titre":null,
 			"description":{
-				"bulle1": "Fear of Complications : My greatest fear is loosing my eyesight because I love reading! This just motivates me to keep on managing my diabetes.",
-				"bulle2": "My Family :  My kids. They are full of energy. Their spirit of life make me enthusiastic for life. I want to be healthy to live with them. To see them achieving new heights in life. They are my true motivator",
-				"bulle3": "The feeling of control  : The thought that diabetes is not a disease and that it can be controlled by proper food, medication and daily exercise.",
-				"bulle4":  "I was lazy the previous month and not following my daily schedule in a disciplined manner. Now that I have started doing my daily exercise, proper diet and medication. I feel enthusiastic these days.",
-				"bulle5":  "Inspiring public figure : [The] well known cricketer Wasim Akram who was able to play cricket while he had diabetes. He should be your role model and inspiration.",
+				"bulle1": '"Fear of Complications : My greatest fear is loosing my eyesight because I love reading! This just motivates me to keep on managing my diabetes."',
+				"bulle2": '"My Family :  My kids. They are full of energy. Their spirit of life make me enthusiastic for life. I want to be healthy to live with them. To see them achieving new heights in life. They are my true motivator"',
+				"bulle3": '"The feeling of control  : The thought that diabetes is not a disease and that it can be controlled by proper food, medication and daily exercise."',
+				"bulle4":  '"I was lazy the previous month and not following my daily schedule in a disciplined manner. Now that I have started doing my daily exercise, proper diet and medication. I feel enthusiastic these days."',
+				"bulle5":  '"Inspiring public figure : [The] well known cricketer Wasim Akram who was able to play cricket while he had diabetes. He should be your role model and inspiration."',
 			},
 			"img":"sanofi.image.38",
 			"vignette":"What's keep me going",
@@ -483,11 +483,11 @@ var patient = {
 			"titre":"Appreciating the Peer to Peer support ",
 			"stitre":null,
 			"description":{
-				"bulle1": "Diabetes is an 'every day' fight. It's important to communicate that diabetes can be managed and it's not necessarily fatal",
-				"bulle2": "Hearing the experiences of others confirm that we are not in this alone.",
-				"bulle3": "I battle with finding adequate care for my diabetes every day. I am hoping to find someone in this country that will give me honest and straight forward answers.",
-				"bulle4": "A successful support story – a spontaneous group between diabetic friends in South Africa",
-				"bulle5": "It’s fun and responsible way of dealing with diabetes, we make fun of each other and sometimes their helpless situations. For valentines’ day our group has been temporarily named as Love wont kill, but sugar can Happy Vday."
+				"bulle1": '"Diabetes is an "every day" fight. It\'s important to communicate that diabetes can be managed and it\'s not necessarily fatal"',
+				"bulle2": '"Hearing the experiences of others confirm that we are not in this alone."',
+				"bulle3": '"I battle with finding adequate care for my diabetes every day. I am hoping to find someone in this country that will give me honest and straight forward answers."',
+				"bulle4": '"A successful support story – a spontaneous group between diabetic friends in South Africa"',
+				"bulle5": '"It’s fun and responsible way of dealing with diabetes, we make fun of each other and sometimes their helpless situations. For valentines’ day our group has been temporarily named as Love wont kill, but sugar can Happy Vday."'
 			},
 			"img":"sanofi.image.39",
 			"vignette":"Appreciating the Peer to Peer support ",
