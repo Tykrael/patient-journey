@@ -661,7 +661,7 @@ var patient = {
 	 	contentSwiper = $('.swiper-content').swiper({
 			useCSS3Transforms:cssEngine,
 			speed:300,
-			calculateHeight:true,
+			calculateHeight:false,
 			noSwiping:true,
 
 			onSlideChangeStart: function(contentSwiper){
@@ -810,7 +810,7 @@ var patient = {
 			$popinInfo = $('.popin-info')
 		
 		
-	$popinInfo.css('min-height', $('.swiper-content .swiper-slide').outerHeight())		
+	//$popinInfo.css('min-height', $('.swiper-content .swiper-slide').outerHeight())		
 		$('.map-trigger, .info').on('click', function(e){
 
 			e.preventDefault()
