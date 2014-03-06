@@ -512,7 +512,7 @@ var patient = {
 						'<h4 class="h3"><%= data.stitre %></h3>'+
 						'<p><%= data.description %></p>'+
 						'</article>'+
-						'<figure class="iBlock vTop size1of3"><img src="img/sanofi.image/<%= data.img %>.png"/></figure>'+
+						'<figure class="iBlock vTop size1of3 txtRight"><img src="img/sanofi.image/<%= data.img %>.png"/></figure>'+
 					'</li>',
 				tmp2 : '<li class="swiper-slide tmp2">'+
 						'<h3 class="h2"><%= data.titre %></h3>'+	
@@ -869,32 +869,32 @@ var patient = {
 		
 			switch (target){
 				case 'diagnosis':
-					var slideIndex = $('.first-phase[data-phase='+target+']')
+					var slideIndex = $('.first-phase[data-phase="diagnosis"]')
 										.find('.row:first')
 										.data('slide-index')	
 				break;
 				case 'timetotreat':
-					var slideIndex = $('.first-phase[data-phase='+target+']')
+					var slideIndex = $('.first-phase[data-phase="Time to Treat"]')
 										.find('.row:first')
 										.data('slide-index')	
 				break;
 				case 'timeforinsulin':
-					var slideIndex = $('.first-phase[data-phase='+target+']')
+					var slideIndex = $('.first-phase[data-phase="Time to Insulin"]')
 										.find('.row:first')
 										.data('slide-index')	
 				break;
 				case 'intensification':
-					var slideIndex = $('.first-phase[data-phase='+target+']')
+					var slideIndex = $('.first-phase[data-phase="intensification"]')
 										.find('.row:first')
 										.data('slide-index')		
 				break;
 				case 'empowerment':
-					var slideIndex = $('.first-phase[data-phase='+target+']')
+					var slideIndex = $('.first-phase[data-phase="empowerment"]')
 										.find('.row:first')
 										.data('slide-index')	
 				break;
 			}
-	
+
 			$popinMap.stop(true,true).animate({
 				opacity:0
 			}, function(){

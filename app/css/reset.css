@@ -10,7 +10,7 @@ blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
 table{border-collapse:collapse;border-spacing:0}
 a:hover,a:active,a,object, embed{outline:0}
-a{text-decoration: none}
+a{text-decoration: none;border:0 none;}
 
 img{display:inline-block;border:0 none;-ms-interpolation-mode:bicubic}
 label{cursor:pointer}
