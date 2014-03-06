@@ -226,8 +226,7 @@ body {
 
     .swiper-content .swiper-slide.tmp2{
        padding-top: 20px;
-        padding-left: 160px;
-          font-size: 0.875em;
+        font-size: 0.875em;
     }
 
     .tmp2 .bubble li{
@@ -235,7 +234,7 @@ body {
     }
         .tmp2 figure{
             position: relative;
-            margin:35px auto 0 40%;
+            margin:35px auto 0 45%;
             width:290px;
             height:290px
         }

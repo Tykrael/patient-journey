@@ -680,15 +680,15 @@ var patient = {
 				}
 
 				if(contentSwiper.activeIndex == contentSwiper.slides.length-1 ){
-					$('.next').fadeOut()
+					$('.next').fadeOut(300)
 				}else{
-					$('.next').fadeIn()
+					$('.next').fadeIn(300)
 				}
 
-				if(contentSwiper.activeIndex == 0 ){
-					$('.prev').fadeOut()
+				if(contentSwiper.activeIndex != 0 ){
+					$('.prev').fadeIn(300)
 				}else{
-					$('.prev').fadeIn()
+					$('.prev').fadeOut(300)
 				}
 
 
