@@ -894,7 +894,7 @@ var patient = {
 										.data('slide-index')	
 				break;
 			}
-				
+	
 			$popinMap.stop(true,true).animate({
 				opacity:0
 			}, function(){

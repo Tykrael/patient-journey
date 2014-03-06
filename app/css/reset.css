@@ -44,6 +44,7 @@ h1,h2,h3,h4,h5,h6,a,p,li{font-size:1em; font-weight:normal;line-height: 1.2}
 h1,h2,h3,h4,h5,h6{line-height: 1}
 
 body,html{margin:0;padding:0}
+
 *{
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
