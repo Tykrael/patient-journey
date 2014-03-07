@@ -532,7 +532,7 @@ var patient = {
 						'<h4 class="h3"><%= data.stitre %></h3>'+
 						'<p><%= data.description %></p>'+
 						'</article>'+
-						'<figure class="iBlock vTop size1of3 txtRight"><img src="img/sanofi.image/<%= data.img %>.png"/></figure>'+
+						'<figure class="iBlock vTop size1of3 txtCenter"><img src="img/sanofi.image/<%= data.img %>.png"/></figure>'+
 					'</li>',
 				tmp2 : '<li class="swiper-slide tmp2">'+
 						'<h3 class="h2"><%= data.titre %></h3>'+	
