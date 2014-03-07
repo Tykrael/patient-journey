@@ -276,7 +276,7 @@ body {
                 padding: 15px 0 0 25px;
              }
              .bubble-3 .text{
-               padding:35px 0 0 30px;
+               padding:35px 0 0 15px;
              }
              .bubble-4 .text{
                padding:25px 0 0 30px;
@@ -703,6 +703,10 @@ body .away{
     left:-100%;
 }
 
+area{
+    cursor: pointer
+}
+
 .popin-map{
     position: absolute;
     opacity:1;
@@ -728,7 +732,7 @@ body .away{
   
   .popin-info{
       background: none repeat scroll 0 0 #FFFFFF;
-    bottom: 165px;
+    bottom: 155px;
     left: 0;
     opacity: 1;
     overflow: hidden;

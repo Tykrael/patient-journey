@@ -37,7 +37,7 @@ var patient = {
 				"bulle2": "<strong>I was in shock</strong>. Why does it happen to me? I felt stupid and scared and I did not ask anything much.",
 				"bulle3": "It was a <strong>blessing in disguise</strong>, since then I have lost weight and adopted a healthier lifestyle",
 				"bulle4": "They should have had literature and maybe a video available to take home to look at calmly…",
-				"bulle5":  "They should have had literature and maybe a video available to take home to look at calmly…",
+				"bulle5":  '“It was <strong>hard to accept that I will have this disease the rest life of my life</strong>"',
 			},
 			"img":"sanofi.image.3",
 			"vignette":" First diagnosis",
@@ -468,10 +468,10 @@ var patient = {
 			"titre":"Incidents of People with Diabetes’ in their journey ",
 			"sous-titre":null,
 			"description":{
-						"bulle1": '<strong>Ashamed of shaking</strong>and being looked at" ',
-						"bulle2": '“I know I am <strong>responsible for the incident, by either eating or drinking the wrong thing, or <strong>not taking my meds properly</strong>.”',
+						"bulle1": '<strong>Ashamed of shaking</strong> and being looked at"',
+						"bulle2": '“I know I am <strong>responsible</strong>  for the incident, by either eating or drinking the wrong thing, or <strong>not taking my meds properly</strong>.”',
 						"bulle3": '“I was at work and was unaware it was a hypo. I was taking an interview and <strong>collapsed in the sick room</strong>. I was given glucose to eat by the campus doctor… It was really horrible…” ',
-						"bulle4": '<strong>“People do not understand such an incident</strong>.  You may appear to be intoxicated and they would rather point fingers than help or try to understand..”',
+						"bulle4": '<strong>“People do not understand such an incident</strong>. You may appear to be intoxicated and they would rather point fingers than help or try to understand..”',
 						"bulle5": '<strong>“I had a hypo at work</strong>. I was in a state of confusion with just enough brain power to know I needed glucose. I ate some sweets from my pocket on the way there.”'
 					},
 			"img":"sanofi.image.36",
@@ -505,7 +505,7 @@ var patient = {
 				"bulle1": 'A <strong>successful support story</strong> – a spontaneous group between diabetic friends in South Africa ',
 				"bulle2": '“Hearing the experiences of others confirm that <strong>we are not in this alone</strong>.”',
 				"bulle3": '“It’s fun and responsible way of dealing with diabetes, we make fun of each other and sometimes their helpless situations. For valentines’ day our group has been temporarily named as "<strong>Love wont kill, but sugar can Happy Vday</strong>.”',
-				"bulle4": '" <strong>Diabetes is an ‘every day’ fight</strong>. It\'s important to communicate that diabetes can be managed and it\'s not necessarily fatal"',
+				"bulle4": '"<strong>Diabetes is an ‘every day’ fight</strong>. It\'s important to communicate that diabetes can be managed and it\'s not necessarily fatal"',
 				"bulle5": '“I battle with finding adequate care for my diabetes every day. I am hoping to find someone in this country that will give me honest and straight forward answers.”',
 			},
 			"img":"sanofi.image.38",
@@ -884,42 +884,14 @@ var patient = {
 
 		$('#Map').find('area').on('click', function(e){
 			e.preventDefault()
-			var target = $(e.currentTarget).attr('href').split('#')[1]
-
+			var target = $(e.currentTarget).data('slide-map')
+			console.log(target)
 		
-			switch (target){
-				case 'diagnosis':
-					var slideIndex = $('.first-phase[data-phase="diagnosis"]')
-										.find('.row:first')
-										.data('slide-index')	
-				break;
-				case 'timetotreat':
-					var slideIndex = $('.first-phase[data-phase="Time to Treat"]')
-										.find('.row:first')
-										.data('slide-index')	
-				break;
-				case 'timeforinsulin':
-					var slideIndex = $('.first-phase[data-phase="Time to Insulin"]')
-										.find('.row:first')
-										.data('slide-index')	
-				break;
-				case 'intensification':
-					var slideIndex = $('.first-phase[data-phase="intensification"]')
-										.find('.row:first')
-										.data('slide-index')		
-				break;
-				case 'empowerment':
-					var slideIndex = $('.first-phase[data-phase="empowerment"]')
-										.find('.row:first')
-										.data('slide-index')	
-				break;
-			}
-
 			$popinMap.stop(true,true).animate({
 				opacity:0
 			}, function(){
 				$(this).addClass('away')
-				contentSwiper.swipeTo(slideIndex)
+				contentSwiper.swipeTo(target)
 			})
 		})
 
