@@ -522,7 +522,6 @@ var patient = {
 			"img":"sanofi.image.39",
 			"vignette":"I am a champ initiative",
 		}
-
 		];
 		 templates = {
 		 	content : {
@@ -885,7 +884,7 @@ var patient = {
 		$('#Map').find('area').on('click', function(e){
 			e.preventDefault()
 			var target = $(e.currentTarget).data('slide-map')
-			console.log(target)
+		
 		
 			$popinMap.stop(true,true).animate({
 				opacity:0

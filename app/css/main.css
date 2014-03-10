@@ -291,7 +291,7 @@ body {
             }
 
             .tmp2 .bubble-1{
-                background: url("../img/bulle-1.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+                background: url("../img/bulle-1.png") no-repeat scroll 0 0;
                 height: 150px;
                 left: -190px;
                 position: absolute;
@@ -300,7 +300,7 @@ body {
             }
 
             .tmp2 .bubble-2{
-                background: url("../img/bulle-2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+                background: url("../img/bulle-2.png") no-repeat scroll 0 0;
                 height: 148px;
                 left: -180px;
                 position: absolute;
@@ -308,7 +308,7 @@ body {
                 width: 148px;
             }
             .tmp2 .bubble-3{
-                background: url("../img/bulle-3.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+                background: url("../img/bulle-3.png") no-repeat scroll 0 0;
                 height: 193px;
                 left: -375px;
                 position: absolute;
@@ -316,7 +316,7 @@ body {
                 width: 210px;
             }
             .tmp2 .bubble-4{
-                background: url("../img/bulle-4.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+                background: url("../img/bulle-4.png") no-repeat scroll 0 0;
                 height: 150px;
                 position: absolute;
                 right: -170px;
@@ -325,7 +325,7 @@ body {
             }
 
             .tmp2 .bubble-5{
-                background: url("../img/bulle-5.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+                background: url("../img/bulle-5.png") no-repeat scroll 0 0;
                 height: 150px;
                 position: absolute;
                 right: -165px;
