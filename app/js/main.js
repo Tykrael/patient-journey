@@ -885,7 +885,6 @@ var patient = {
 			e.preventDefault()
 			var target = $(e.currentTarget).data('slide-map')
 		
-		
 			$popinMap.stop(true,true).animate({
 				opacity:0
 			}, function(){
