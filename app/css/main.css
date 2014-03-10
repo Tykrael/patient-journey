@@ -246,12 +246,13 @@ body {
         .tmp2 figure{
             position: relative;
             margin:35px auto 0 45%;
-            width:25%;
+            width:270px;
             height:100%
         }
 
         .tmp2 figure img{
-              max-width: 100%;
+             
+            width:270px;
         }
             .bubble li:before{
                 content: '';
