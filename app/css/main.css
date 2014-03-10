@@ -687,8 +687,7 @@ body {
             background-color: #16B4CF
         }
         .phase-schema .fourth{
-             background-color: #B6A26C
-         
+            background-color: #B6A26C
         }
          .phase-schema .fifth{
               background-color: #EA7023
@@ -702,7 +701,8 @@ body .away{
 }
 
 area{
-    cursor: pointer
+    cursor: pointer;
+    display: block
 }
 
 .popin-map{
