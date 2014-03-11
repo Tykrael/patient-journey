@@ -487,7 +487,7 @@ var patient = {
 			"slide":1,
 			"phase":"Empowerment",
 			"groupe":20,
-			"theme":"recurrent hypos",
+			"theme":"insight",
 			"titre":"What's keep me going ",
 			"sous-titre":null,
 			"description":{

@@ -498,9 +498,8 @@ body {
     background: url('../img/recurrent-social.png') no-repeat 0 0;
 }
 
-
 .row.recurrent.social{
-     background: url('../img/recurrent-social.png') no-repeat 0 0;
+     background: url('../img/recurrent-relation.png') no-repeat 0 0;
 }
 
 .row.recurrent.life{
@@ -516,7 +515,7 @@ body {
 }
 
 .row.recurrent.relation{
-     background: url('../img/recurrent-relation.png') no-repeat 0 0;
+     background: url('../img/recurrent-social.png') no-repeat 0 0;
 }
 
 
