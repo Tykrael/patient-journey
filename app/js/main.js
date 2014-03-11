@@ -255,13 +255,19 @@ var patient = {
 			"vignette":"New step in the diabetic's life",
 		},
 		{
-			"slide":3,
+			"slide":1,
 			"phase":"Time to Insulin",
 			"groupe":11,
 			"theme":"sanofi answers",
 			"titre":"Patients want to feel normal and in control, needing discreet and ‘part of their everyday live’ devices",
 			"stitre":null,
-			"description":'<p>“Seeing the AllStar demo made me feel in complete control of my insulin usage. It made me feel confident and in charge. I was happy that such innovative products are being designed for diabetics around the world.”</p><p>Devices that provide a feeling of control, also boost the confidence needed for diabetes management.</p><p><strong>AllStar reusable pen is an innovative product which answers those needs</strong>.</p><p><strong>Accross Intercontinental, a lot of patients are unfortunnaly still using syringues</strong>.</p>',
+			"description":{
+				"bulle1": '“Seeing the AllStar demo made me feel in complete control of my insulin usage. It made me feel confident and in charge. I was happy that such innovative products are being designed for diabetics around the world.”',
+				"bulle2": 'Devices that provide a feeling of control, also boost the confidence needed for diabetes management.',
+				"bulle3": "A recurring feeling of being rock bottom",
+				"bulle4": '<strong>AllStar reusable pen is an innovative product which answers those needs</strong>.',
+				"bulle5": '<strong>Accross Intercontinental, a lot of patients are unfortunnaly still using syringues</strong>.'
+			},
 			"img":"sanofi.image.20",
 			"vignette":"AllStar : Device, part of their everyday live",
 		},
@@ -299,7 +305,7 @@ var patient = {
 			"vignette":"As a progressive disease, diabetes has a serious  impact on heath",
 		},
 		{
-			"slide":3,
+			"slide":1,
 			"phase":"Time to Insulin",
 			"groupe":13,
 			"theme":"recurrent hypos",
