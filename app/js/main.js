@@ -468,11 +468,11 @@ var patient = {
 			"titre":"Incidents of People with Diabetes’ in their journey ",
 			"sous-titre":null,
 			"description":{
-						"bulle1": '<strong>Ashamed of shaking</strong> and being looked at"',
-						"bulle2": '“I know I am <strong>responsible</strong>  for the incident, by either eating or drinking the wrong thing, or <strong>not taking my meds properly</strong>.”',
-						"bulle3": '“I was at work and was unaware it was a hypo. I was taking an interview and <strong>collapsed in the sick room</strong>. I was given glucose to eat by the campus doctor… It was really horrible…” ',
-						"bulle4": '<strong>“People do not understand such an incident</strong>.  You may appear to be intoxicated and they would rather point fingers than help or try to understand..”',
-						"bulle5": '<strong>“I had a hypo at work</strong>. I was in a state of confusion with just enough brain power to know I needed glucose. I ate some sweets from my pocket on the way there.”'
+						"bulle1": '"<strong>Ashamed of shaking</strong>and being looked at"',
+						"bulle2": ' “I know I am <strong>responsible</strong> for the incident, by either eating or drinking the wrong thing, or <strong>not taking my meds properly</strong>.”',
+						"bulle3": '“I was at work and was unaware it was a hypo. I was taking an interview and <strong>collapsed in the sick room</strong>. I was given glucose to eat by the campus doctor… It was really horrible…”  ',
+						"bulle4": ' <strong>“People do not understand such an incident</strong>.  They would rather point fingers than help or try to understand..”',
+						"bulle5": ' <strong>“I had a hypo at work</strong>. I was in a state of confusion with just enough brain power to know I needed glucose. I ate some sweets from my pocket ”'
 					},
 			"img":"sanofi.image.36",
 			"vignette":"Incidents of People with Diabetes’ in their journey",
@@ -486,10 +486,10 @@ var patient = {
 			"sous-titre":null,
 			"description":{
 				"bulle1": '<strong>Fear of Complications</strong><br> : “My greatest fear is loosing my eyesight because I love reading! This just motivates me to keep on managing my diabetes.”',
-				"bulle2": '<strong>My Family</strong><br> :  “My kids. They are full of energy. Their spirit of life make me enthusiastic for life. I want to be healthy to live with them. To see them achieving new heights in life. They are my true motivator”',
+				"bulle2": '<strong>My Family</strong><br> :  “My kids.  Their spirit of life make me enthusiastic for life. I want to be healthy to live with them. To see them achieving new heights in life.”',
 				"bulle3": '<strong>The feeling of control</strong><br> : “The thought that diabetes is not a disease and that it can be controlled by proper food, medication and daily exercise.”',
-				"bulle4": '"I was lazy the previous month and not following my daily schedule in a disciplined manner. Now that I have started doing my daily exercise, proper diet and medication. I feel enthusiastic these days."',
-				"bulle5": '<strong>Inspiring public figure</strong><br> : “[The] well known cricketer Wasim Akram who was able to play cricket while he had diabetes. He should be your role model and inspiration.”',
+				"bulle4": '"I was not following my daily schedule in a disciplined manner. Now that I have started doing my daily exercise, proper diet and medication. I feel enthusiastic"',
+				"bulle5": '<strong>Inspiring public figure</strong><br> : “Well known cricketer Wasim Akram who was able to play cricket while he had diabetes. He should be your inspiration.”',
 			},
 			"img":"sanofi.image.37",
 			"vignette":"What's keep me going",
