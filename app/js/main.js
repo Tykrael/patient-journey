@@ -250,7 +250,7 @@ var patient = {
 			"theme":"recurrent lifestyle",
 			"titre":"Insulin has changed my life ",
 			"stitre":null,
-			"description":'<p>“Seeing the AllStar demo made me feel in complete control of my insulin usage. It made me feel confident and in charge. I was happy that such innovative products are being designed for diabetics around the world.”</p><p>Devices that provide a feeling of control, also boost the confidence needed for diabetes management.</p><p><strong>AllStar reusable pen is an innovative product which answers those needs</strong>.</p><p><strong>Accross Intercontinental, a lot of patients are unfortunnaly still using syringues</strong>.</p>',
+			"description":'<p>Interest in innovative devices such as the AllStar reusable pen. Key benefits perceived of Improve usability, portability, cost efficiency are confirmed. <br>It is also important to consider ecological benefits which may resonate more strongly in countries where  such issues are still very close to their daily lives.</p><p>“Taking insulin is not that difficult. With the help of new pen devices, now insulin can be taken easily and accurately without pain.<br>Insulin is the best way to control diabetes”</p>',
 			"img":"sanofi.image.19",
 			"vignette":"New step in the diabetic's life",
 		},
@@ -377,7 +377,7 @@ var patient = {
 			"vignette":"IDMPS : People with diabetes are not reaching the glycemic targets recommended by their physicians",
 		},
 		{
-			"slide":3,
+			"slide":1,
 			"phase":"intensification",
 			"groupe":16,
 			"theme":"recurrent blood",
@@ -392,7 +392,7 @@ var patient = {
 			},
 			"img":"sanofi.image.30",
 			"vignette":"Ideal Glucometer",
-		},/*LAAA*/
+		},
 		{
 			"slide":2,
 			"phase":"intensification",
