@@ -378,11 +378,11 @@ body {
 }
 
 .tmp3 figure{
-    bottom: 20px;
+     bottom: 0;
     left: 0;
     position: absolute;
     text-align: center;
-    top: 40px;
+    top: 70px;
     width: 100%;
 }
 
