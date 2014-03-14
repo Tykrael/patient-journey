@@ -327,7 +327,7 @@ var patient = {
 				"bulle2": "<strong>Diabeduc in Algeria</strong> propose to patient with Diabetes and their HCP a large education platform since 2010",
 				"bulle3": "Starting 2006, <strong>Saath 7</strong> provide adapted program for patients newly insulinazed.",
 				"bulle4": "Just started in South Africa, <strong>MyStar Care</strong> will provide disease education and emotional support",
-				"bulle5": "<strong>DiaStar in Egypt</strong>, and many others programs in Iran, Pakistan, Bangladesh,...are supporting patients using our insulin."
+				"bulle5": "<strong>DiaStar <br/>in Egypt</strong>, <br/>and many others programs in Iran, Pakistan, Bangladesh,...are supporting patients using our insulin."
 			},
 			"img":"sanofi.image.25",
 			"vignette":"Our PSP Programs",
@@ -472,7 +472,7 @@ var patient = {
 						"bulle2": ' “I know I am <strong>responsible</strong> for the incident, by either eating or drinking the wrong thing, or <strong>not taking my meds properly</strong>.”',
 						"bulle3": '“I was at work and was unaware it was a hypo. I was taking an interview and <strong>collapsed in the sick room</strong>. I was given glucose to eat by the campus doctor… It was really horrible…”  ',
 						"bulle4": ' <strong>“People do not understand such an incident</strong>.  They would rather point fingers than help or try to understand..”',
-						"bulle5": ' <strong>“I had a hypo at work</strong>. I was in a state of confusion with just enough brain power to know I needed glucose. I ate some sweets from my pocket ”'
+						"bulle5": ' <strong>“I had a hypo <br/> at work</strong>. I was in a state of confusion with just enough brain power to know I needed glucose. I ate some sweets from my pocket ”'
 					},
 			"img":"sanofi.image.36",
 			"vignette":"Incidents of People with Diabetes’ in their journey",
@@ -485,11 +485,11 @@ var patient = {
 			"titre":"What's keep me going ",
 			"sous-titre":null,
 			"description":{
-				"bulle1": '<strong>Fear of Complications</strong><br> : “My greatest fear is loosing my eyesight because I love reading! This just motivates me to keep on managing my diabetes.”',
-				"bulle2": '<strong>My Family</strong><br> :  “My kids.  Their spirit of life make me enthusiastic for life. I want to be healthy to live with them. To see them achieving new heights in life.”',
-				"bulle3": '<strong>The feeling of control</strong><br> : “The thought that diabetes is not a disease and that it can be controlled by proper food, medication and daily exercise.”',
+				"bulle1": '<strong>Fear of Complications</strong>: <br>  “My greatest fear is loosing my eyesight because I love reading! This just motivates me to keep on managing my diabetes.”',
+				"bulle2": '<strong>My Family</strong>:<br> “My kids.  Their spirit of life make me enthusiastic for life. I want to be healthy to live with them. To see them achieving new heights in life.”',
+				"bulle3": '<strong>The feeling of control</strong>:<br> “The thought that diabetes is not a disease and that it can be controlled by proper food, medication and daily exercise.”',
 				"bulle4": '"I was not following my daily schedule in a disciplined manner. Now that I have started doing my daily exercise, proper diet and medication. I feel enthusiastic"',
-				"bulle5": '<strong>Inspiring public figure</strong><br> : “Well known cricketer Wasim Akram who was able to play cricket while he had diabetes. He should be your inspiration.”',
+				"bulle5": '<strong>Inspiring public figure</strong>:<br> “Well known cricketer Wasim Akram who was able to play cricket while he had diabetes. He should be your inspiration.”',
 			},
 			"img":"sanofi.image.37",
 			"vignette":"What's keep me going",
@@ -504,7 +504,7 @@ var patient = {
 			"description":{
 				"bulle1": 'A <strong>successful support story</strong> – a spontaneous group between diabetic friends in South Africa ',
 				"bulle2": '“Hearing the experiences of others confirm that <strong>we are not in this alone</strong>.”',
-				"bulle3": '“It’s fun and responsible way of dealing with diabetes, we make fun of each other and sometimes their helpless situations. For valentines’ day our group has been temporarily named as "<strong>Love wont kill, but sugar can Happy Vday</strong>.”',
+				"bulle3": '“It’s fun and responsible <br/> way of dealing with diabetes, we make fun of each other and sometimes their helpless situations. For valentines’ day our group has been temporarily named as "<strong>Love wont kill, but sugar can Happy Vday</strong>.”',
 				"bulle4": '"<strong>Diabetes is an ‘every day’ fight</strong>. It\'s important to communicate that diabetes can be managed and it\'s not necessarily fatal"',
 				"bulle5": '“I battle with finding adequate care for my diabetes every day. I am hoping to find someone in this country that will give me honest and straight forward answers.”',
 			},
@@ -526,14 +526,17 @@ var patient = {
 		 templates = {
 		 	content : {
 		 		tmp1 :'<li class="swiper-slide tmp1">'+
+		 				'<div class="wrap">'+
 						'<article class="iBlock size2of3">'+
 						'<h3 class="h2"><%= data.titre %></h3>'+
 						'<h4 class="h3"><%= data.stitre %></h3>'+
 						'<p><%= data.description %></p>'+
 						'</article>'+
 						'<figure class="iBlock vTop size1of3 txtCenter"><img src="img/sanofi.image/<%= data.img %>.png"/></figure>'+
+						'</div>'+
 					'</li>',
 				tmp2 : '<li class="swiper-slide tmp2">'+
+						'<div class="wrap">'+
 						'<h3 class="h2"><%= data.titre %></h3>'+	
 						'<figure class="rel"><img src="img/sanofi.image/<%= data.img %>.png"/>'+
 						'<figcaption><ul class="bubble">'+
@@ -563,11 +566,14 @@ var patient = {
 								'</div>'+
 							'</li>'+
 						'</ul></figcaption>'+
-						'</figure>'+	
+						'</figure>'+
+						'</div>'+	
 					'</li>',
 				tmp3 : '<li class="swiper-slide tmp3">'+
+						'<div class="wrap">'+
 						'<h3 class="h2"><%= data.titre %></h3>'+	
 						'<figure class="txtCenter"><img src="img/sanofi.image/<%= data.img %>.png"/></figure>'+
+						'</div>'+
 					'</li>'
 		 	}, 
 		 	nav : {
