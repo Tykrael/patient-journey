@@ -118,7 +118,7 @@ var patient = {
 			"stitre":null,
 			"description":null,
 			"img":"sanofi.image.9",
-			"vignette":"DMPS : level of glycemic control",
+			"vignette":"IDMPS : level of glycemic control",
 		},
 		{
 			"slide":1,
