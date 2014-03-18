@@ -431,7 +431,7 @@ var patient = {
 			"phase":"Empowerment",
 			"groupe":18,
 			"theme":"insight",
-			"titre":"Meet the Ambassadors of Middle East region : Committed for increasing awareness and fighting for better lifestyle",
+			"titre":"Meet the ambassadors : Committed for increasing awareness and fighting for better lifestyle",
 			"sous-titre":null,
 			"description":{
 				"bulle1": '“I call for a law for diabetics’ rights” G.T, Lebanon',
